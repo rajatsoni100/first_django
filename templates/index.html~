@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html>
+<head>
+
+</head>
+
+<body>
+campustalks
+<form id="login-form" onsubmit="return accept()">
+	<input type="username" name="username" id="username"  		   		placeholder="email or username"/> </br>
+	<input type="password" name="password" id="password" 		      placeholder="password"/> </br>
+	<input type="submit"/>
+</form>
+
+<button onclick="accept()"> go to js</button> 
+<input type="printentered" id="printentered"/>
+
+
+<script type="text/javascript" src="{%static 'js/jquery.min.js'%}"></script>
+<script type="text/javascript">
+function accept(){
+ 	    var username=$('#username').val();
+		var password=$('#password').val();
+    if(username==''||password=='')
+  { return false; }
+else { return true; }
+	
+ }	
+	
+</script>
+</body>
+</html>
