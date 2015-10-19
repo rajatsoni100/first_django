@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<div>CAMPUSTALKS</div>
+<div>CAMPUSTALKS - NEW</div>
 <form id="login-form" onsubmit="return accept()">
 	<input type="username" name="username" id="username" placeholder="email or username"/> </br>
 	<input type="password" name="password" id="password" placeholder="password"/> 	</br>
